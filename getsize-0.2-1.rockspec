@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package="getsize"
-version="0.1-1"
+version="0.2-1"
 
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.2-1",
   url = "git://github.com/LuaDist-testing/getsize.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/siffiejoe/lua-getsize/archive/v0.1.zip",
---   dir = "lua-getsize-0.1",
+--   url = "https://github.com/siffiejoe/lua-getsize/archive/v0.2.zip",
+--   dir = "lua-getsize-0.2",
 -- }
 
 description = {
@@ -39,6 +39,7 @@ build = {
         "getsize_multi.c",
         "layout523.c",
         "layout530.c",
+        "layout531.c",
       },
       incdirs = {
         "dummy"
